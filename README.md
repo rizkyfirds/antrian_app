@@ -21,6 +21,7 @@ Logic yang ditanamkan adalah ketika ada tidak ada status active maka urutan sela
 
 No urutan pada antrian tidak akan sama karena, models membuat bahwa field no_queue mengharuskan unique. Kemudian, sudah ditambahkan collection untuk menghitung jumlah antrian agar terbarukan.
 
+
 Jawaban Pertanyaan Tambahan:
 1. monolith atau microservice? Jelaskan pendapat Anda!
 
@@ -32,4 +33,5 @@ Menurut pendapat saya, pendekatan pemisahan antara Frontend dan Backend lebih fl
 
 3. Jika data sudah mencapai jutaan data, bagaimana cara mengatasi query lambat? Silahkan tunjukkan pada 
 code Anda. 
+
 Jika data sudah banyak maka akan lebih baik jika ditambahkan db untuk menampung cache. Kemudian membuat fetching data sesuai kebutuhan dan lakukan dengan lazy query, sehingga hit api hanya saat dibutuhkan saja. Lalu, lakukan fetching data list menggunakan offset agar hanya menampilkan hanya dengan data yang dibutuhkan dan tidak mengambil semuanya sehingga tidak perlu mengambil data yang banyak, seperti yang saya lakukan pada data table pada halaman admin.
