@@ -1,0 +1,151 @@
+[{
+  "_id": {
+    "$oid": "687f9ed48f2e31aab20d9c0c"
+  },
+  "name": "Rizky Firdaus",
+  "email": "rizky@gmail.com",
+  "phone": "08123456789",
+  "timestamp": "2025-07-22T12:00:00Z",
+  "no_queue": 1,
+  "status": "COMPLETE"
+},
+{
+  "_id": {
+    "$oid": "687fa443ad476500c40f0d9d"
+  },
+  "name": "Asep",
+  "email": "asep@gmail.com",
+  "phone": "0812123123",
+  "no_queue": 2,
+  "status": "COMPLETE",
+  "timestamp": {
+    "$date": "2025-07-22T14:46:27.566Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687facb619160bda2783619e"
+  },
+  "name": "bagus",
+  "email": "bagus@gmail.com",
+  "phone": "0812133481922",
+  "no_queue": 3,
+  "status": "INCOMPLETE",
+  "timestamp": {
+    "$date": "2025-07-22T15:22:30.974Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687fad7619160bda278361a5"
+  },
+  "name": "evan",
+  "email": "evan@gmail.com",
+  "phone": "0812122481923",
+  "no_queue": 4,
+  "status": "ACTIVE",
+  "timestamp": {
+    "$date": "2025-07-22T15:25:42.430Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687faed319160bda278361aa"
+  },
+  "name": "caca",
+  "email": "caca@gmail.com",
+  "phone": "081214475555",
+  "no_queue": 5,
+  "status": "WAITING",
+  "timestamp": {
+    "$date": "2025-07-22T15:31:31.278Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687faf4a19160bda278361b3"
+  },
+  "name": "farel",
+  "email": "farel@gmail.com",
+  "phone": "081214472229",
+  "no_queue": 6,
+  "status": "WAITING",
+  "timestamp": {
+    "$date": "2025-07-22T15:33:30.427Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687faf7519160bda278361b8"
+  },
+  "name": "rasya",
+  "email": "rasya@gmail.com",
+  "phone": "081214472227",
+  "no_queue": 7,
+  "status": "WAITING",
+  "timestamp": {
+    "$date": "2025-07-22T15:34:13.570Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "687fb95e19160bda278361c5"
+  },
+  "name": "odik",
+  "email": "odik@gmail.com",
+  "phone": "08121334819288",
+  "no_queue": 8,
+  "status": "WAITING",
+  "timestamp": {
+    "$date": "2025-07-22T16:16:30.899Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68800895a064f25efd6b798c"
+  },
+  "name": "jaka",
+  "email": "jaka@gmail.com",
+  "phone": "0812133481921",
+  "no_queue": 9,
+  "status": "WAITING",
+  "timestamp": {
+    "$date": "2025-07-22T21:54:29.829Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "688014eae4356343399fd956"
+  },
+  "name": "ajeng",
+  "email": "ajeng@gmail.com",
+  "phone": "081214475558",
+  "no_queue": 10,
+  "status": "WAITING",
+  "timestamp": {
+    "$date": "2025-07-22T22:47:06.375Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "688014fae4356343399fd95b"
+  },
+  "name": "susi",
+  "email": "susi@gmail.com",
+  "phone": "0812122481927",
+  "no_queue": 11,
+  "status": "WAITING",
+  "timestamp": {
+    "$date": "2025-07-22T22:47:22.416Z"
+  },
+  "__v": 0
+}]
